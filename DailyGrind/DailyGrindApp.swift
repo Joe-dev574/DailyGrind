@@ -25,7 +25,7 @@ struct DailyGrindApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainContentListScreen()
         }
         .modelContainer(sharedModelContainer)
     }
